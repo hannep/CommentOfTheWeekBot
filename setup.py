@@ -13,7 +13,7 @@ setup(
     license="MIT",
     author="iro",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["praw"],
     long_description=long_description,
     scripts=["scripts/commentoftheweek"],
     classifiers=[
